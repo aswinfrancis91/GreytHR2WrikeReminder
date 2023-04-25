@@ -6,7 +6,7 @@ function notifyExtension(e) {
 
         const dialogElement = document.createElement("p");
         dialogElement.innerHTML =
-            '<div><dialog id="TimeSheetDialog">Have you filled timesheet for the day<br><button id="YesTimeSheet">Yes</button><br><button id="NoTimeSheet">No</button></dialog></div>';
+            '<div style="border: 1 solid;!important;"><dialog id="TimeSheetDialog">Have you filled timesheet for the day<br><br><button id="YesTimeSheet" style="border-width: 1px;padding: 2%;margin-right: 15%;">Yes</button><button id="NoTimeSheet" style="border-width: 1px;padding: 2%; margin-right: 15%;">No</button></dialog></div>';
 
         document.body.insertBefore(dialogElement, document.body.firstChild);
 
